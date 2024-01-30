@@ -11,9 +11,9 @@
   --link-hover-color: #618794;
   --link-bg-color: #dae4e7;
   --selection-color: #dae4e7;
-  --body-stack: "Lora", "Georgia", "Times New Roman", serif;
+  --body-stack: "Noto Serif TC", "Noto Serif SC", "Noto Serif JP", "Lora", "Georgia", "Times New Roman", serif;
   --secondary-stack: "Lato", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Verdana", sans-serif;
-  --title-stack: "Playfair Display SC", "Georgia", serif;
+  --title-stack: "Noto Serif TC", "Noto Serif SC", "Noto Serif JP", "Playfair Display SC", "Georgia", serif;
 }
 
 html {
