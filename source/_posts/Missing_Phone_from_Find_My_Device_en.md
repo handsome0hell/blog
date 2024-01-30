@@ -25,7 +25,4 @@ Island provides a feature called ["Managed Mainland"](https://island.oasisfeng.c
 
 Obviously, turn off the "Managed Mainland“, the normal "Sign in with your Google Account" words will show up during adding account, then the Samsung Galaxy S23 Ultra, delayed by half a year, appeared in the list of Find My Device. This does not affect the primary functionality of Island, and adb can freeze apps directly if it's necessary.
 
-Finally, I no longer have to search the entire room for my phone that was sitting right under some butt, YEAAAAAH!The New Device
-Half year ago, a new Android phone.  
-
-Sign in with your work account
+Finally, I no longer have to search the entire room for my phone that was sitting right under some butt, YEAAAAAH!
