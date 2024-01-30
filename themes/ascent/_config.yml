@@ -26,5 +26,5 @@ google_analytics:
 
 # IntenseDebate ID
 intensedebate:
-  enable: true
-  acct: "35028d218ff1a03de543e168524a9334"
+  enable: false
+  acct: "000000000000000000000"
