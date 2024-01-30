@@ -11,9 +11,9 @@
   --link-hover-color: #618794;
   --link-bg-color: #dae4e7;
   --selection-color: #dae4e7;
-  --body-stack: "Noto Serif TC", "Noto Serif SC", "Noto Serif JP", "Lora", "Georgia", "Times New Roman", serif;
+  --body-stack: "Lora", "Georgia", "Times New Roman", "Noto Serif TC", "Noto Serif SC", "Noto Serif JP", serif;
   --secondary-stack: "Lato", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Verdana", sans-serif;
-  --title-stack: "Noto Serif TC", "Noto Serif SC", "Noto Serif JP", "Playfair Display SC", "Georgia", serif;
+  --title-stack: "Playfair Display SC", "Georgia", "Noto Serif TC", "Noto Serif SC", "Noto Serif JP", serif;
 }
 
 html {
@@ -50,7 +50,7 @@ body {
 /* header */
 #header {
   border-bottom: solid 1px var(--secondary-color);
-  padding: 0.25em 0;
+  padding: 0.25em 0 1.5em 0;
 }
  
 #title {
@@ -58,12 +58,12 @@ body {
   font-size: 2em;
   font-weight: 900;
   letter-spacing: 0.05em;
-  margin: 0.8em 0 0 0;
+  margin: 0.8em 0 0.8em 0;
   text-align: center;
 }
 
 #header nav {
-  margin: 2em 0;
+  margin: 0 0 0.4em 0;
   text-align: center;
 }
 
