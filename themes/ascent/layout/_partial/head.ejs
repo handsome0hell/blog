@@ -29,5 +29,21 @@
   <% if (theme.highlight){ %>
     <%- css('css/highlight') %>
   <% } %>
-  <%- open_graph() -%>
+  <%- open_graph({
+    title: title,
+    image: "https://blog.hanssen0.com/og-image.png",
+    twitter_image: "https://blog.hanssen0.com/twitter-image.png",
+    description: "Hanssen's Blog",
+    author: "Hanssen",
+    url: "https://blog.hanssen0.com",
+    twitter_card: "summary_large_image",
+    twitter_id: "Hanssen0",
+  }) -%>
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:image" content="https://blog.hanssen0.com/twitter-image.png">
+  <meta property="twitter:creator" content="@Hanssen0">
+  <meta name="twitter:title" content="<%- title -%>">
+  <meta name="twitter:description" content="Hanssen's Blog">
+  <meta property="twitter:title" content="<%- title -%>">
+  <meta property="twitter:description" content="Hanssen's Blog">
 </head>
